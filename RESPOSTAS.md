@@ -44,7 +44,26 @@ Em Haskell, uma função pode ser recebida diretamente como argumento, e isso é
 Saída do `main` de `fidelidade.hs`:
 
 ```text
-(cole aqui)
+--- Desafio 1 ---
+120
+240
+170
+240
+--- Desafio 2 ---
+80
+160
+130
+240
+170
+--- Desafio 3 ---
+750
+350
+100
+55
+--- Desafio 4 ---
+950
+1750
+280
 ```
 
 Saída do `main` de `revisao.hs` (depois de corrigido):
