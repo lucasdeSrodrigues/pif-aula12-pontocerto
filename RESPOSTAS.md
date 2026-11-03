@@ -9,11 +9,11 @@
 
 ## Explicação da solução
 
-<!-- 3 a 5 linhas: como calculaPontos e as fábricas de campanhas eliminam a repetição de código? -->
+As regras das campanhas foram representadas como funções, permitindo que calculaPontos receba diferentes regras e aplique cada uma ao valor da compra. As fábricas recebem um número e devolvem uma nova função, evitando a criação de uma função separada para cada multiplicador ou bônus. Assim, o código pode ser reutilizado em várias campanhas, reduzindo a repetição.
 
 ## Desafio 2
 
-<!-- Faz sentido usar uma lambda porque as regras dessas promoções são curtas e usadas apenas uma vez. Dessa forma, não é necessário criar uma função nomeada para cada promoção temporária, deixando o código mais direto e evitando funções desnecessárias. -->
+Faz sentido usar uma lambda porque as regras dessas promoções são curtas e usadas apenas uma vez. Dessa forma, não é necessário criar uma função nomeada para cada promoção temporária, deixando o código mais direto e evitando funções desnecessárias.
 
 ## Desafio 3
 
