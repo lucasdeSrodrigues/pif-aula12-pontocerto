@@ -13,7 +13,7 @@
 
 ## Desafio 2
 
-<!-- Por que, nas duas promoções de um dia, faz sentido usar lambda em vez de função nomeada? -->
+<!-- Faz sentido usar uma lambda porque as regras dessas promoções são curtas e usadas apenas uma vez. Dessa forma, não é necessário criar uma função nomeada para cada promoção temporária, deixando o código mais direto e evitando funções desnecessárias. -->
 
 ## Desafio 3
 
