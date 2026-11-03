@@ -4,8 +4,8 @@
 
 | Papel | Nome completo | Usuário do GitHub |
 |---|---|---|
-| Integrante 1 (dono do fork) | | |
-| Integrante 2 (colaborador) | | |
+| Piloto | Lucas de Souza Rodrigues | lucasdeSrodrigues |
+| Navegador | Artur Holanda Costa | ArturHolandaC |
 
 ## Explicação da solução
 
