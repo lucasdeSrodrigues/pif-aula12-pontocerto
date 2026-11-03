@@ -17,7 +17,7 @@
 
 ## Desafio 3
 
-<!-- O que campanhaMultiplicadora 5 devolve? Um número ou outra coisa? Como o :t confirma isso? -->
+A expressão `campanhaMultiplicadora 5` devolve uma função, e não um número. Essa nova função recebe uma quantidade de pontos e multiplica o valor por 5. O comando `:t campanhaMultiplicadora 5` confirma isso ao mostrar o tipo `Int -> Int`, indicando que o resultado recebe um inteiro e devolve outro inteiro.
 
 ## Desafio 4
 
