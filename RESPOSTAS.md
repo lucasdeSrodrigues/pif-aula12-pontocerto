@@ -29,10 +29,10 @@ A expressão `campanhaMultiplicadora 5` devolve uma função, e não um número.
 
 | Erro | Função | O que estava errado | Como o GHC avisou (resumo da mensagem) | Como corrigimos |
 |---|---|---|---|---|
-| 1 | | | | |
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 1 | `aplicaRegraDuasVezes` | A assinatura indicava que o primeiro argumento era um `Int`, mas a função recebe uma regra do tipo `Int -> Int`. | O GHC indicou que um número estava sendo usado como se fosse uma função. | Alteramos a assinatura para `(Int -> Int) -> Int -> Int`. |
+| 2 | `fimDeSemana` | A lambda utilizava `=>` no lugar de `->`. | O GHC apresentou um erro de sintaxe na seta da lambda. | Substituímos `=>` por `->`. |
+| 3 | `natal` | A função `campanhaBonus` foi atribuída sem informar o valor do bônus. | O GHC indicou que os tipos não correspondiam, pois ainda faltava um argumento. | Aplicamos a fábrica ao valor 300, usando `campanhaBonus 300`. |
+| 4 | `promocaoAtual` | `pontosEmDobro` foi aplicada ao valor 100, produzindo um número em vez de guardar a função. | O GHC indicou que era esperado `Int -> Int`, mas foi encontrado `Int`. | Atribuímos diretamente `pontosEmDobro`, sem aplicar a função ao valor 100. |
 
 ## Desafio 6 — Haskell × C
 
