@@ -21,9 +21,9 @@ A expressão `campanhaMultiplicadora 5` devolve uma função, e não um número.
 
 ## Desafio 4
 
-**a)** <!-- Por que as duas ordens dão resultados diferentes? -->
+**a)** As duas ordens apresentam resultados diferentes porque cada regra é aplicada sobre o resultado da regra anterior. Quando a Black Friday é aplicada primeiro, o valor é multiplicado por 5 e o bônus de 200 é somado depois, resultando em 950 pontos. Na ordem inversa, o bônus é somado antes e também acaba sendo multiplicado por 5, resultando em 1750 pontos.
 
-**b)** <!-- Qual ordem garante que o bônus de aniversário não seja multiplicado? Por quê? -->
+**b)** O sistema deve aplicar primeiro a campanha `blackFriday` e depois a campanha `aniversarioCliente`. Dessa forma, apenas os pontos da compra são multiplicados, e o bônus de 200 pontos é adicionado no final, sem sofrer a multiplicação.
 
 ## Desafio 5 — revisão de código
 
