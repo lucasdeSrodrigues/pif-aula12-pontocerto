@@ -69,7 +69,10 @@ Saída do `main` de `fidelidade.hs`:
 Saída do `main` de `revisao.hs` (depois de corrigido):
 
 ```text
-(cole aqui)
+40
+100
+400
+200
 ```
 
 Saída de `pontocerto.c`:
