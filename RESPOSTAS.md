@@ -6,6 +6,7 @@
 |---|---|---|
 | Piloto | Lucas de Souza Rodrigues | lucasdeSrodrigues |
 | Navegador | Artur Holanda Costa | ArturHolandaC |
+|Navegador | Antônio Leite Sandes | als5@cesar.school |
 
 ## Explicação da solução
 
