@@ -78,5 +78,8 @@ Saída do `main` de `revisao.hs` (depois de corrigido):
 Saída de `pontocerto.c`:
 
 ```text
-(cole aqui)
+160
+130
+250
+300
 ```
